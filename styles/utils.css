@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
 
 :root {
     
@@ -6,6 +8,10 @@
     --logo-asterisks: #F06C64;
     --basic-red:#F06C64;
     --white: #fff;
+    --base-wite:#F2F2F2;
+    --section-headers:#666D89;
+    --text-color:#767E9E;
+    --base-blue:#2D303A;
   }
   
   /* ====================
@@ -28,7 +34,7 @@
   input,
   textarea {
     font-weight: 400;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Lato', sans-serif;
     color: var(--black1);
     background-color: var(--white);
   }

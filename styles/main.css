@@ -1,0 +1,106 @@
+
+.services{
+    background-color: var(--base-wite);
+    height: 494px;
+    padding: 59px 40px 46px 40px;
+}
+.services-main-text {
+    margin-bottom: 70px;
+}
+.services-main-text__headline {
+    font-weight: 900;
+    color: var(--section-headers);
+    font-size: 40px;
+    line-height:36px;
+    margin-bottom: 18px;
+}
+.services-main-text__description {
+    font-weight: 100;
+    color: var(--section-headers);
+    font-size: 18px;
+    line-height:39px;
+    font-style: normal;
+
+}
+.services-items {
+    display: flex;
+    flex-flow: row wrap;
+}
+.services-items-card {
+    display: flex;
+    flex: 0 0 33%;
+    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+.services-items-card__icon {}
+.services-items-card__icon img{
+    height: 60px;
+    margin-right: 35px;
+
+}
+.services-items-card__text{
+    max-width: 350px;
+    max-height: 95px;
+}
+.services-items-card__headline {
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: var(--section-headers);
+    font-size: 18px;
+}
+.services-items-card__description {
+    color: var(--text-color);
+    line-height:35px;
+}
+
+
+.portfolio {
+    height: 1100px;
+    background-color: var(--base-blue);
+    padding: 40px;
+}
+.portfolio-main-text {}
+.portfolio-main-text__headline {
+    font-weight: 900;
+    color: var(--section-headers);
+    font-size: 40px;
+    line-height:36px;
+    margin-bottom: 20px;
+}
+.portfolio-main-text__description {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height:35px;    
+    margin-bottom: 20px;
+}
+.portfolio-main-text__tags {
+    display: flex;
+}
+.portfolio-main-text__tags li{
+    border: 1px solid var(--text-color);
+    border-radius: 10%;
+    margin-right: 10px;
+    color: var(--text-color);
+    padding: 5px;
+}
+.portfolio-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.portfolio-gallery_item{
+    display: flex;
+    flex: 0 0 23%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.portfolio-gallery_item img{
+    width: 350px;
+
+}
+
