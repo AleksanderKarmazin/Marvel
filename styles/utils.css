@@ -1,0 +1,65 @@
+
+:root {
+    
+    --navbar-color:  #2D303A;
+    --navbar-color-border:  #323746;
+    --logo-asterisks: #F06C64;
+    --basic-red:#F06C64;
+    --white: #fff;
+  }
+  
+  /* ====================
+      Reset
+     ====================
+  */
+  
+  *,
+  *::after,
+  *::before {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body,
+  input,
+  textarea {
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: var(--black1);
+    background-color: var(--white);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li,
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+  button{
+    padding: 11px 48px 10px 48px;
+    min-height: 65px;
+    min-width: 250px;
+    background-color:#00A4E5;
+    font-size: 22px;
+    color: #fff;
+   }
