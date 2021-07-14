@@ -97,3 +97,7 @@
 .social-item{
     margin: 5px;
 }
+
+.main-socials-item:hover{
+  background-color: #2098d1;
+}

@@ -103,6 +103,19 @@
     transform: translate(-50%, -50%);
 }
 
+.slider__arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translate(-50%, -50%);
+}
+.slider__arrow-right:hover{
+    background-color: #2098d1;
+}
+.slider__arrow-left:hover{
+    background-color: #2098d1;
+}
+
 .slider__phones-content {
     position: absolute;
     top: 10%;
