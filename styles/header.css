@@ -23,6 +23,9 @@
     font-weight: 600;
 }
 
+
+
+
 .navbar__logo-link-text>a>h1 {
     color: var(--white);
     font-size: 25px;
@@ -37,9 +40,28 @@
 }
 
 .navbar__links {
-    display: flex;
-    
+    display: flex;   
 }
+
+@media(max-width: 375px){
+    .slider-content{
+        height: 594px;
+    
+    }
+    .navbar__links {
+        display: none;   
+    }
+    .navbar__content {
+        height: 89px;
+        justify-content: center;
+    }
+    .slider__phones-content {
+        top: 10%;
+        left: 20%;
+        width: 65%;
+    }  
+}
+
 .navbar__link-item  a{
     color: var(--white);
     font-size: 12px;
@@ -89,7 +111,7 @@
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 768px ) and (min-width: 376px){
     .slider__phones-content {
         max-width: 570px;
     }
